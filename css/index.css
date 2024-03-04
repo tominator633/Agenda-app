@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+/*  .gb {
+    border: 2px solid yellow;
+}   */
+ 
+body {
+    background: linear-gradient(to bottom, #492e87, #664d9e, #846cb5, #a18ccd, #bfaee4);
+    background-attachment: fixed;
+    height: 100svh;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 700;
+    color: #BFAEE4;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ##################### TODAY BANNER ############################## */
+
+
+#today {
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #BFAEE4;
+    border-radius: 20px;
+    color: #492E87;
+}
+
+#today h2 {
+    padding-left: 20px;
+    padding-top: 5px;
+    height: 40%;
+}
+#today h2 span {
+    font-weight: 200;
+}
+#todayBtnCON {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#todayAddBtn {
+    width: 80%;
+    height: 50%;
+    border-radius: 50px;
+    border: none;
+    background-color: #0A1D56;
+    color: #F2F597;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+/* ##################### MONTH BANNER ############################## */
+#monthOverview {
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #BFAEE4;
+    border-radius: 20px;
+    color: #492E87;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#monthOverview h2 {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#monthOverviewCON {
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+}
+
+
+#sheetBtnCON {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#sheetBtn {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A1D56;
+}
+#sheetBtn svg {
+    width: 70%;
+    height: 70%;
+    color: #F2F597;
+}
+
+
+
+/* #######################NAV NAV */
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    position: fixed;
+    bottom: 0px;
+    background-color: #492E87;
+
+}
+
+nav ul {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li:nth-child(1) {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+nav ul li:nth-child(5) {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #F2F597;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#navAddBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #F2F597;
+    color: #0A1D56;
+    font-size: 40px;
+    font-weight: 900;
+    outline: none;
+    border: none;
+}
